@@ -1,0 +1,9 @@
+// 测试样例 3: 条件分支
+fn main() {
+    let x = 10;
+    if (x > 5) {
+        print(1);
+    } else {
+        print(0);
+    }
+}

@@ -1,0 +1,12 @@
+// 测试样例 5: 函数调用
+fn add(a, b) {
+    let result = a + b;
+    return result;
+}
+
+fn main() {
+    let x = 15;
+    let y = 27;
+    let sum = add(x, y);
+    print(sum);
+}

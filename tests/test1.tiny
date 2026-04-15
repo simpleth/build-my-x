@@ -1,0 +1,4 @@
+// 测试样例 1: Hello World (打印数字)
+fn main() {
+    print(42);
+}

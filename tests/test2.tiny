@@ -1,0 +1,8 @@
+// 测试样例 2: 算术运算
+fn main() {
+    let a = 10;
+    let b = 20;
+    let c = a + b;
+    print(c);
+    print(a * b);
+}

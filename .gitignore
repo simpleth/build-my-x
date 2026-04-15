@@ -1,0 +1,44 @@
+# VSCode 配置（本地开发配置，不提交到仓库）
+.vscode/
+.qwen/
+
+# 构建输出目录
+build/
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+
+# LLVM IR 和临时文件
+*.ll
+*.bc
+test_temp*
+
+# 测试生成的可执行文件
+test*.exe
+
+# CMake 缓存和生成文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# MinGW/CMake 生成的其他文件
+*.a
+*.lib
+
+# 日志文件
+*.log
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
+*~

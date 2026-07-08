@@ -1,0 +1,36 @@
+{
+  "name": "create-java-app",
+  "version": "1.0.0",
+  "description": "Cross-platform Java project scaffolding CLI",
+  "bin": {
+    "java-cli": "./bin/java-cli.js"
+  },
+  "scripts": {
+    "test": "node tests/run_tests.js",
+    "start": "node bin/java-cli.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "templates/"
+  ],
+  "keywords": [
+    "java",
+    "cli",
+    "scaffold",
+    "project-generator",
+    "jdk",
+    "cross-platform"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.18",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "tar": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

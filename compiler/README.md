@@ -144,7 +144,7 @@ mingw32-make
 
 ```cmd
 :: 进入项目根目录
-cd D:\Project\prototype\build-own-x\compiler
+cd D:\build-my-x\compiler
 
 :: 编译 test1.tiny
 build\TinyCompiler.exe tests\test1.tiny -o output
